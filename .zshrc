@@ -39,22 +39,19 @@ _fzf_compgen_dir() {
   fd --type d --hidden --follow --exclude ".git" . "$1"
 }
 
-zplugin ice "rupa/z" pick"z.sh"; zplugin light rupa/z
+zinit ice "rupa/z" pick"z.sh"; zinit light rupa/z
 
-zplugin ice wait as"program" pick"bin/git-dsf"; zplugin light zdharma-continuum/zsh-diff-so-fancy
-zplugin ice wait lucid; zplugin light zsh-users/zsh-autosuggestions
-zplugin ice wait lucid; zplugin light zdharma-continuum/fast-syntax-highlighting
-zplugin ice wait lucid; zplugin snippet OMZ::lib/history.zsh
-zplugin ice wait lucid; zplugin snippet OMZ::lib/key-bindings.zsh 
-zplugin ice wait lucid; zplugin snippet OMZ::plugins/sudo/sudo.plugin.zsh
-zplugin ice wait lucid; zplugin snippet OMZ::plugins/kubectl/kubectl.plugin.zsh
-zplugin ice wait lucid; zplugin snippet OMZ::plugins/git/git.plugin.zsh
-zplugin ice wait lucid; zplugin snippet OMZ::plugins/vscode/vscode.plugin.zsh
+zinit ice wait as"program" pick"bin/git-dsf"; zinit light zdharma-continuum/zsh-diff-so-fancy
+zinit ice wait lucid; zinit light zsh-users/zsh-autosuggestions
+zinit ice wait lucid; zinit light zdharma-continuum/fast-syntax-highlighting
+zinit ice wait lucid; zinit snippet OMZ::lib/history.zsh
+zinit ice wait lucid; zinit snippet OMZ::lib/key-bindings.zsh 
+zinit ice wait lucid; zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
+zinit ice wait lucid; zinit snippet OMZ::plugins/kubectl/kubectl.plugin.zsh
+zinit ice wait lucid; zinit snippet OMZ::plugins/git/git.plugin.zsh
+zinit ice wait lucid; zinit snippet OMZ::plugins/vscode/vscode.plugin.zsh
 
-# FIXME: drop
-zplugin ice wait lucid atinit"zpcompinit; zpcdreplay"; zplugin light jonmosco/kube-ps1
-
-zplugin ice pick"async.zsh" src"pure.zsh"; zplugin light sindresorhus/pure
+zinit ice pick"async.zsh" src"pure.zsh"; zinit light sindresorhus/pure
 
 export WORDCHARS=""
 
@@ -72,5 +69,4 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-bin-gem-node \
     zdharma-continuum/zinit-annex-patch-dl \
     zdharma-continuum/zinit-annex-rust
-
 ### End of Zinit's installer chunk
