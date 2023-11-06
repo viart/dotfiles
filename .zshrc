@@ -47,7 +47,6 @@ zinit ice wait lucid; zinit light zdharma-continuum/fast-syntax-highlighting
 zinit ice wait lucid; zinit snippet OMZ::lib/history.zsh
 zinit ice wait lucid; zinit snippet OMZ::lib/key-bindings.zsh 
 zinit ice wait lucid; zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
-zinit ice wait lucid; zinit snippet OMZ::plugins/kubectl/kubectl.plugin.zsh
 zinit ice wait lucid; zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit ice wait lucid; zinit snippet OMZ::plugins/vscode/vscode.plugin.zsh
 
