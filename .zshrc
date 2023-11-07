@@ -50,6 +50,9 @@ zinit ice wait lucid; zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
 zinit ice wait lucid; zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit ice wait lucid; zinit snippet OMZ::plugins/vscode/vscode.plugin.zsh
 
+zinit ice lucid wait'0'
+zinit light joshskidmore/zsh-fzf-history-search
+
 zinit ice pick"async.zsh" src"pure.zsh"; zinit light sindresorhus/pure
 
 export WORDCHARS=""
