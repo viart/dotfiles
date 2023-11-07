@@ -50,6 +50,8 @@ zinit ice wait lucid; zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
 zinit ice wait lucid; zinit snippet OMZ::plugins/git/git.plugin.zsh
 zinit ice wait lucid; zinit snippet OMZ::plugins/vscode/vscode.plugin.zsh
 
+zinit light zsh-users/zsh-completions
+
 zinit ice lucid wait'0'
 zinit light joshskidmore/zsh-fzf-history-search
 
