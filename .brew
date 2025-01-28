@@ -42,7 +42,7 @@ brew install fpp
 brew install ripgrep    
 brew install fd         # enhanced find
 brew install bat        # enhanced cat
-brew install exa        # enhanced ls
+brew install eza        # enhanced ls
 
 brew tap caskroom/cask
 brew install --cask vlc

@@ -34,9 +34,9 @@ alias gmm="git merge --no-ff"
 alias glol="git log --graph --decorate --pretty=oneline --abbrev-commit"
 alias glola="git log --graph --decorate --pretty=oneline --abbrev-commit --all"
 
-alias ls="exa"
-alias ll="exa -lh"
-alias la="exa -lhaa"
+alias ls="eza"
+alias ll="eza -lh"
+alias la="eza -lhaa"
 
 # Gzip-enabled `curl`
 alias gurl="curl --compressed"
